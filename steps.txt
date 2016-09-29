@@ -1,2 +1,18 @@
 created repo on GitHub, named basic_repo
 git mkdir assignment4/basic_repo
+touch index.html markdown.md style.css
+atom .
+modified html and css files.
+git add .
+git commit -m "initial commit"
+git remote add origin git@github.com:stevengum97/basic_repo.git
+git push -u origin master
+atom index.html
+modified html file
+git add index.html
+git commit -m "edited index.html"
+touch steps.txt
+typed steps
+git add steps.txt
+git commit -m "created steps.txt"
+git push origin master
